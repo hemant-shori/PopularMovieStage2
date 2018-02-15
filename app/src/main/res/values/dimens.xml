@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dp5">5dp</dimen>
+    <dimen name="dp10">10dp</dimen>
+    <dimen name="cardViewViewHolderPadding">@dimen/dp10</dimen>
+    <dimen name="reviewPadding">@dimen/dp10</dimen>
+    <dimen name="margin16dp">16dp</dimen>
+    <dimen name="margin8dp">8dp</dimen>
+
+    <dimen name="textViewMargin16dp">@dimen/margin16dp</dimen>
+    <dimen name="textViewMargin8dp">@dimen/margin8dp</dimen>
+    <dimen name="imageViewPadding8dp">@dimen/margin8dp</dimen>
+
+    <dimen name="progressBarSize">42dp</dimen>
+    <dimen name="floatingActionButtonMargin">24dp</dimen>
+
+    <dimen name="textViewRatingsPadding">3dp</dimen>
+    <dimen name="textViewLabelPadding">@dimen/dp5</dimen>
+    <dimen name="textViewLabelMarginBottom">@dimen/dp10</dimen>
+    <dimen name="dividerHeightHorizontal">1dp</dimen>
+    <dimen name="dividerWidthVertical">1dp</dimen>
+    <dimen name="dividerHeightVertical">180dp</dimen>
+    <dimen name="recyclerViewMinHeight">120dp</dimen>
+
+</resources>

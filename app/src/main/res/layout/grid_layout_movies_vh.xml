@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_movie_poster"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/colorTransparentGrey"
+        android:contentDescription="@string/MovieNameFrame_a11y"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/tv_movie_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorTransparentGrey"
+        android:gravity="center"
+        android:minLines="2"
+        android:padding="@dimen/textViewLabelPadding"
+        android:textColor="@color/colorWhite" />
+
+
+    <TextView
+        android:id="@+id/tv_ratings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/colorTransparentGrey"
+        android:drawableLeft="@drawable/ic_star_rating"
+        android:drawableStart="@drawable/ic_star_rating"
+        android:gravity="center"
+        android:padding="@dimen/textViewRatingsPadding"
+        android:textColor="@color/colorWhite" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dividerHeightHorizontal"
+        android:layout_gravity="bottom"
+        android:background="@color/colorWhite" />
+
+    <View
+        android:layout_width="@dimen/dividerWidthVertical"
+        android:layout_height="@dimen/dividerHeightVertical"
+        android:layout_gravity="end"
+        android:background="@color/colorWhite" />
+
+
+</FrameLayout>
